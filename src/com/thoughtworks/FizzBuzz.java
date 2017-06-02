@@ -17,10 +17,10 @@ public class FizzBuzz {
         if (number % 15 == 0) {
             answer = FIZZ_BUZZ;
         }
-        else if (number % 3 == 0){
+        else if (number % 5 == 0){
             answer = FIZZ;
         }
-        else if (number % 5 == 0){
+        else if (number % 3 == 0){
             answer = BUZZ;
         }
         return answer;
